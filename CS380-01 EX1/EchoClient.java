@@ -28,7 +28,7 @@ public final class EchoClient {
             	System.out.print("Client> ");
             	i = in.readLine(); 									// read input from user
             	out.println(i); 									// send user input to server
-            	System.out.println("Server> " + br.readLine()); 	// print result from server
+            	System.out.println("Server> " + br.readLine()); 	//print result from server
            	}
            	
             
