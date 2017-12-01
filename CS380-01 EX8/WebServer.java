@@ -76,18 +76,6 @@ public class WebServer
 						pw.println(temp);
 						System.out.print(temp + "\r\n");
 					}
-					
-					/*
-					else
-					{
-						String response = "HTTP/1.1 404 Not Found\r\nContent-Type: text/html\r\nContent-Length: 126\r\n";
-						pw.println(response);
-						System.out.print(response);
-						response = "<html>\r\n<head>\r\n<title>Not Found</title>\r\n</head>\r\n<body>Sorry, the object you requested was not found.</body>\r\n</html>";
-						pw.println(response);
-						System.out.println(response);
-					}
-					*/
 				}
 			}
 			catch (IOException e)
